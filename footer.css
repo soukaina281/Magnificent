@@ -1,0 +1,24 @@
+.dec{
+    text-decoration: none;
+}
+.dec:hover{
+    text-decoration: underline;
+}
+@media (max-width: 600px) {
+    .footer-icon {
+        margin: 0px !important;
+    }
+    .container section a{
+        margin: 0px !important;
+    }
+    .container section a .contact{
+        width: 18px !important;
+        height: 18px !important;
+    }
+    .container .row h5{
+        font-size: 18px;
+    }
+    .container .row ul li a{
+        font-size: 18px;
+    }
+}

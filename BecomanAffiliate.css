@@ -1,0 +1,39 @@
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+.div2{
+    margin-left: 50%;
+    margin-top:60px
+}
+.aceuil{
+    text-decoration: none !important;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:relative;
+    margin:10px;
+    float:left;
+    font-size:25px;
+}
+.aceuil:hover{
+    color:#FF1768;
+}
+
+@media (max-width: 1000px){
+    .container-fluid{
+        margin-top: 150px !important;
+        font-size: 16px;
+    }
+}
+@media (max-width: 800px){
+    .container-fluid{
+        margin-top: 150px !important;
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px){
+    .container-fluid{
+        margin-top: 150px !important;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,55 @@
+#login-div {
+    width: 500px; 
+    margin-top: 130px !important;
+    margin-bottom: 20px !important;
+  }
+  .form-check-input:checked {
+    background-color: #ee6a6a;
+    border-color: #ee6a6a;
+  }
+  .form-check-input:focus {
+    box-shadow: 0 0 0 0.25rem transparent;
+    border-color: #ee6a6a;
+  }
+  .form-check-input {
+    border-color: #ee6a6a;
+  }
+  .social-icon {
+    color: #ee6a6a;
+  }
+  .social-icon:hover {
+    background-color: #ee6a6a;
+    color: white;
+  }
+  .btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem transparent;
+  }
+  .nav-item {
+    background-color: #f1f4f8;
+  }
+  .nav-item:visited {
+    background-color: grey !important;
+  }
+  input:not([type=checkbox]):hover{
+    background-color: white !important;
+  }
+  .form-control:focus {
+    box-shadow: 0 0 0 0.25rem transparent;
+  }
+  .error {
+    color: #FF0000;
+  }
+  .m-icon {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  button:hover .m-icon {
+      filter: invert(100%);
+  }
+  @media (max-width : 600px){
+    #login-div {
+      width: 360px; 
+      margin-top: 160px !important;
+    }
+  }

@@ -1,0 +1,37 @@
+.list{
+    margin:80px;
+    
+}
+.list ul li a{
+    text-decoration: none;
+    color: black;
+}
+.list ul li{
+    margin-bottom:20px;
+}
+.title{
+    text-align:center;
+    font-family:'Super Grotesk Offc Medium';
+    color:#ee6a6a;
+    margin:30px;
+    margin-top: 150px;
+
+}
+.title3{
+    text-align:center;
+    font-family:'Super Grotesk Offc Medium';
+    color:#ee6a6a;
+    margin:30px;
+    padding:10Px;
+    background-color:#f6b8b8
+  
+  }
+.contenu{
+    text-align:center;
+    font-size:16px;
+    margin-bottom:60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.list p {
+padding: 15px;
+}

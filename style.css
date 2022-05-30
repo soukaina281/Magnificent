@@ -1,0 +1,385 @@
+body {
+    position: relative; 
+}
+/*nav bar*/
+/*.navbar{
+    height: 100px;
+}
+#logo{
+    font-family: 'Meie Script', cursive; 
+    color: #FF1768;
+}
+#logo-cap{
+    color: #FF860D;
+}
+#search-in{
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0px; 
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px;
+}
+#search-btn{
+    width: 70px; 
+    border-top-right-radius: 15px; 
+    border-bottom-right-radius: 15px; 
+    border-top-left-radius: 0px; 
+    border-bottom-left-radius: 0px; 
+    color: grey;
+}
+.badge{
+    color: grey; 
+    font-size: 18px; 
+    font-weight: 500;
+}
+.fa-search{
+    font-size: 18px;
+}
+.navbar-nav{
+    width: 300px;
+}
+.nav-link{
+    width: 100px;
+}
+.bi-person{
+    font-size:32px; 
+    color: grey;
+}
+.bi-cart2,.bi-suit-heart{
+    font-size:30px; 
+    color: grey;
+}*/
+/*nav bar*/
+.women{
+    margin: 0 auto; 
+    border: 1px solid rgb(204, 199, 199); 
+    border-top-right-radius: 15px; 
+    border-bottom-right-radius: 0px; 
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 0px;
+}
+.cat-title{
+    font-weight: bolder;
+}
+.card-img-top{
+    width:100%; 
+    height: 350px;
+}
+.card-title{
+    font-size: 15px;
+}
+.card{
+    width:250px; 
+    height: 450px;
+}
+.card-text{
+    font-size: 25px;
+    font-weight: bolder;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.card:hover{
+    border: 1px solid grey;
+}
+.see-more{
+    height: 45px; 
+    border: 1px solid rgb(204, 199, 199); 
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 15px; 
+    border-top-left-radius: 0px; 
+    border-bottom-left-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*login+signup*/
+.log-in{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.log-btn {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-check-input:checked{
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+#forgot-pswd{
+    color: grey;
+}
+#log2sign{
+    text-decoration: underline;
+}
+#sign2log{
+    text-decoration: underline;
+}
+#orL,#orS{
+    width: 35px; 
+    border: 1px solid grey; 
+    color: grey; 
+    position: relative; 
+    bottom: 15px;
+}
+#or-divL,#or-divS{
+    margin: 0 auto; 
+    margin-left: 17px;
+}
+#log-divL,#log-divS{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+#log-conL,#log-conS{
+    width: 500px;
+}
+#mediaL,#mediaS{
+    width: 338px; 
+    margin: 0 auto;
+}
+.social_icon a{
+    font-size: 60px;
+    margin-left: 18px;
+    margin-right: 18px;
+    color: black;
+}
+.social_icon a:hover{
+color: grey;
+}
+/*login+signup*/
+/*footer*/
+.dec:hover {
+    text-decoration: underline;
+}
+/*footer*/
+/*categories*/
+.list-group-item:hover {
+    text-decoration: underline;
+}
+.categories{
+    width: 1200px; 
+    margin: 0 auto; 
+    margin-top: 125px; 
+    margin-bottom: 200px;
+}
+.list-group{
+    width: 250px;
+}
+/*categories*/
+/*slider*/
+#demo{
+    width:950px; 
+    height: 574px; 
+    margin: 0 auto;
+}
+.d-block{
+    width:950px; 
+    height: 574px;
+}
+.bi-chevron-left,.bi-chevron-right{
+    font-size:32px; 
+    color: black;
+}
+/*slider*/
+
+@media (max-width: 600px) {
+    /*nav bar*/
+    /*.navbar{
+        height: 150px;
+    }
+    #logo{
+        font-family: 'Meie Script', cursive; 
+        color: #FF1768;
+        font-size: 28px;
+    }
+    #logo-cap{
+        color: #FF860D;
+        font-size: 17px;
+    }
+    #search-in{
+        border-top-right-radius: 0px; 
+        border-bottom-right-radius: 0px; 
+        border-top-left-radius: 15px; 
+        border-bottom-left-radius: 15px;
+        width: 300px;
+    }
+    #search-btn{
+        width: 40px; 
+        border-top-right-radius: 15px; 
+        border-bottom-right-radius: 15px; 
+        border-top-left-radius: 0px; 
+        border-bottom-left-radius: 0px; 
+        color: grey;
+    }
+    .badge{
+        color: grey; 
+        font-size: 17px; 
+        font-weight: 500;
+    }
+    .navbar-brand{
+        height: 68px;
+    }
+    .d-flex{
+        margin: 0 auto;
+        height: 36px;
+    }
+    .navbar-nav{
+        margin: 0 auto;
+        padding-bottom: 10px;
+        height: 30px;
+        width: 300px;
+    }
+    .nav-link{
+        margin-top: 0px;
+        height: 30px;
+    }
+    .fa-search{
+        font-size: 17px;
+    }
+    .bi-person{
+        font-size:31px; 
+        color: grey;
+    }
+    .bi-cart2,.bi-suit-heart{
+        font-size:27px; 
+        color: grey;
+    }
+    .search:nth-child(2n) {
+        order: 3;
+    }
+    /*navbar*/
+    /*categories+slider*/
+    .row:nth-child(2n) .col-3:first-child {
+        order: 2;
+    }
+    .categories{
+        width: 100%;
+        margin-top: 160px; 
+    }
+    .list-group{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .slider{
+        margin: 0 auto;
+    }
+    #demo{
+        width:480px; 
+        height: 300px; 
+        margin: 0 auto;
+    }
+    .d-block{
+        width:480px; 
+        height: 300px;
+    }
+    .bi-chevron-left,.bi-chevron-right{
+        font-size:28px; 
+        color: black;
+    }
+    .cat-title{
+        font-weight: bolder;
+    }
+    .list-group-item:hover {
+        text-decoration: underline;
+    }
+    /*categories+slider*/
+    /*login+signup*/
+    #log-divL,#log-divS{
+        width: 100%;
+        margin-top: 160px;
+    }
+    #log-conL,#log-conS{
+        width: 75%;
+    }
+    #orL,#orS{
+        width: 35px; 
+        border: 1px solid grey; 
+        color: grey; 
+        position: relative; 
+        bottom: 15px;
+    }
+    #or-divL,#or-divS{
+        margin: 0 auto; 
+        margin-left: 17px;
+    }
+    #mediaL,#mediaS{
+        width: 338px; 
+        margin: 0 auto;
+    }
+    #sign-up{
+        margin-bottom: 50px;
+    }
+    #log2sign{
+        text-decoration: underline;
+    }
+    /*login+signup*/
+    .women{
+        margin: 0 auto; 
+        border: 1px solid rgb(204, 199, 199); 
+        border-top-right-radius: 15px; 
+        border-bottom-right-radius: 0px; 
+        border-top-left-radius: 15px; 
+        border-bottom-left-radius: 0px;
+    }
+    
+    .card-img-top{
+        width:100%; 
+        height: 350px;
+    }
+    .card-title{
+        font-size: 15px;
+    }
+    .card{
+        width:250px; 
+        height: 450px;
+    }
+    .card-text{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .see-more{
+        height: 45px; 
+        border: 1px solid rgb(204, 199, 199); 
+        border-top-right-radius: 0px; 
+        border-bottom-right-radius: 15px; 
+        border-top-left-radius: 0px; 
+        border-bottom-left-radius: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .shops:hover{
+        border: 1px solid grey;
+    }
+    .log-in{
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .log-btn {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .form-check-input:checked{
+        background-color: #f0ad4e;
+        border-color: #f0ad4e;
+    }
+    .log-div{
+        width: 450px;
+        margin: 0 auto;  
+        margin-top: 150px;
+    }
+    
+    
+}

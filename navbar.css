@@ -1,0 +1,99 @@
+.in-search {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+}
+.but-search {
+    width: 55px !important;
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
+.badge {
+    font-size: 15px !important;
+    position: relative !important;
+    top: -12px !important;
+    left: -10px !important;
+    padding: 4px !important;
+}
+.btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem transparent !important;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem transparent !important;
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 100% !important;
+    }
+    .search {
+        width: 550px !important;
+        margin: 0 auto !important;
+    }
+    .icon {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        width: 100% !important;
+    }
+    .search {
+        width: 350px !important;
+        margin: 0 auto !important;
+    }
+    .icon {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+}
+@media (max-width: 1000px) {
+    .container {
+        width: 75% !important;
+    }
+    .search {
+        width: 450px !important;
+        margin: 0 auto !important;
+    }
+    .search:nth-child(2n){
+        order: 3 !important;
+    }
+    .icon {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+}
+@media (max-width: 800px) {
+    .container {
+        width: 75% !important;
+    }
+    .search {
+        width: 350px !important;
+        margin: 0 auto !important;
+    }
+    .search:nth-child(2n){
+        order: 3 !important;
+    }
+    .icon {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        width: 90% !important;
+    }
+    .search {
+        width: 350px !important;
+        margin: 0 auto !important;
+    }
+    .search:nth-child(2n){
+        order: 3 !important;
+    }
+    .icon {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}

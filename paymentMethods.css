@@ -1,0 +1,30 @@
+.title{
+    text-align:center;
+    font-family:'Super Grotesk Offc Medium';
+    color:#ee6a6a;
+    margin:30px;
+    margin-top: 150px !important;
+
+}
+.title3{
+    text-align:center;
+    font-family:'Super Grotesk Offc Medium';
+    color:#ee6a6a;
+    margin:30px;
+    padding:10Px;
+   
+  
+  }
+.contenu{
+    text-align:center;
+    font-size:16px;
+    margin-bottom:60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+.image{
+    width:350px;
+    height: 200px;
+    margin-left:50px;
+    margin-top:40px;
+}

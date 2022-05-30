@@ -1,0 +1,19 @@
+body{
+    margin-top:100px;
+    padding:0px;
+}
+    
+h1{
+    text-align: center;
+    padding:60px;
+    
+}
+
+.about-item{
+    margin-bottom:20px;
+    margin-top:20px;
+    padding:70px;
+}
+#about p{
+    font-size: 17px;
+}

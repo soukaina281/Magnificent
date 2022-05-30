@@ -1,0 +1,30 @@
+.titre{
+    margin:40px;
+    padding:20px;
+    text-align: center;
+    color:#ee6a6a;
+}
+.matable{
+    width: 80%;
+    margin: 0 auto !important;
+
+}
+.col{
+    color:#ee6a6a;
+}
+.img{
+    width: 120px;
+    margin: 0 auto !important;
+    /* margin-left: 25%; */
+}
+.button{
+    width:80%;
+    margin:30px;
+    margin-left:10%;
+    background-color: #fa9a9a;
+    border:none;
+    padding:8px
+}
+.button:hover{
+    background-color: #ee6a6a !important;
+}
